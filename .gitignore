@@ -89,4 +89,5 @@ ENV/
 .ropeproject
 
 # Node
-node_modules
+node_modules/
+app/static/bower_components/
