@@ -90,4 +90,9 @@ ENV/
 
 # Node
 node_modules/
+
+#Bower Components
 app/static/bower_components/
+
+#JS compiled from gulp transform
+app/static/scripts/js

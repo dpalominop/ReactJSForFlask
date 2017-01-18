@@ -21,6 +21,7 @@ gulp.task('del', function () {
   return del(['./app/static/scripts/js']);
 });
 
-gulp.task('default', ['del'], function() {
+gulp.task('default', ['del'], function () {
   gulp.start('transform');
+  gulp.watch('./app/static/scripts/jsx/*.js', ['transform']);
 });
