@@ -18,6 +18,8 @@ touch .bowerrc
 bower install bootstrap --save
 bower install react --save
 
+npm install --save-dev gulp
+
 
 git clone https://github.com/dpalominop/ReactJSForFlask.git
 
