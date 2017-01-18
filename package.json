@@ -1,0 +1,25 @@
+{
+  "name": "reactjsforflask",
+  "version": "1.0.0",
+  "description": "Aplicación básica para usar Flask y Python3 en el backend y ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpalominop/ReactJSForFlask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpalominop/ReactJSForFlask/issues"
+  },
+  "homepage": "https://github.com/dpalominop/ReactJSForFlask#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "reactjsforflask",
+  "description": "Aplicación básica para usar Flask y Python3 en el backend y ReactJS.",
+  "main": "index.js",
+  "authors": [
+    "Daniel Palomino <dapalominop@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dpalominop/ReactJSForFlask",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
