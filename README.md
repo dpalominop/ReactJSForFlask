@@ -19,6 +19,10 @@ bower install bootstrap --save
 bower install react --save
 
 npm install --save-dev gulp
+npm install --save-dev del
+npm install --save-dev gulp-size
+npm install --save-dev gulp-browser
+npm install --save-dev reactify
 
 
 git clone https://github.com/dpalominop/ReactJSForFlask.git
