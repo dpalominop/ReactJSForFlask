@@ -8,3 +8,7 @@ from . import common_blueprint
 @common_blueprint.route('/')
 def index():
     return render_template('common/index.html')
+
+@common_blueprint.route('/hello')
+def hello():
+    return render_template('common/hello.html')
