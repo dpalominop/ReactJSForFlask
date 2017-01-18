@@ -18,9 +18,9 @@ gulp.task('transform', function () {
 });
 
 gulp.task('del', function () {
-  // add task
+  return del(['./app/static/scripts/js']);
 });
 
-gulp.task('default', function() {
+gulp.task('default', ['del'], function() {
   gulp.start('transform');
 });
